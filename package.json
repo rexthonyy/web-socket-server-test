@@ -1,0 +1,20 @@
+{
+  "name": "web-socket",
+  "version": "1.0.0",
+  "description": "A platform for real time communications using web sockets",
+  "main": "server.js",
+  "engines": {
+    "node": "14.15.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Rex Anthony",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.2",
+    "express": "^4.17.1",
+    "utf-8-validate": "^5.0.3",
+    "ws": "^7.4.2"
+  }
+}
